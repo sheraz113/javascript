@@ -43,3 +43,15 @@
 // let user = prompt("enter index number you want to print");
 
 // document.write(students[user]);
+
+//if elase conditions 
+
+let user = prompt("enter your name");
+let id = prompt("enter your id");
+
+if(user=="sheraz" && id=="6"){
+    document.write("welcome Mr sheraz")
+};
+else{
+    document.write("fuck off")
+}
