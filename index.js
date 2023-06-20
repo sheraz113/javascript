@@ -50,8 +50,11 @@ let user = prompt("enter your name");
 let id = prompt("enter your id");
 
 if(user=="sheraz" && id=="6"){
-    document.write("welcome Mr sheraz")
-};
+    document.write("welcome Mr sheraz");
+} 
+else if(user=="sheraz" && id=="6"){
+    document.write("welcome Mr sheraz");
+}
 else{
-    document.write("fuck off")
+    document.write("invalid password");
 }
